@@ -6,7 +6,6 @@ import { addTodo } from "../slices/todoSlice";
 
 const AddTodo = () => {
   const [todo, setTodo] = useState("");
-
   const dispatch = useDispatch();
 
   const handleSubmit = (e) => {
